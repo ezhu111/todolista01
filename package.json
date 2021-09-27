@@ -1,0 +1,31 @@
+{
+  "name": "todolista01",
+  "version": "1.0.0",
+  "description": "vanilla js project",
+  "default": "src/index.js",
+  "scripts": {
+    "test": "none",
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezhu111/todolista01.git"
+  },
+  "author": "Edmond Zhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezhu111/todolista01/issues"
+  },
+  "homepage": "https://github.com/ezhu111/todolista01#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "http-server": "^13.0.2",
+    "parcel": "*",
+    "sass": "^1.42.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "uuid": "^3.4.0"
+  }
+}
